@@ -215,7 +215,7 @@ export default {
   padding: 10px;
   width: 50%;
   transition: all 1s;
-  background-color: rgb(211, 211, 204);
+  background-color: #b3b3cc;
 }
 
 .btn {

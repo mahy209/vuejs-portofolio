@@ -107,12 +107,12 @@ export default {
 
 <style scoped>
 .home-title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 500;
 }
 
 img {
-  max-width: 300px;
+  max-width: 400px;
   margin-top: 60px;
   transform: rotateY(180deg);
 }

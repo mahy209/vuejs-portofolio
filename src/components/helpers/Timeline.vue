@@ -84,7 +84,7 @@ export default {
 }
 
 .badge {
-  background-color: rgb(211, 227, 233);
+  background-color: #bbd4dd;
   transition: all 0.5s;
   font-weight: 500;
 }
@@ -115,14 +115,14 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
   content: " ";
-  background: rgb(212, 149, 97);
+  background: #8585ad;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 2px solid rgb(236, 159, 117);
+  border: 2px solid #8585ad;
   left: 20px;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   z-index: 400;
 }
 

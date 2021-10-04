@@ -177,7 +177,7 @@ div.img-div {
 }
 
 .badge {
-  background-color: rgb(211, 227, 233);
+  background-color: #bbd4dd;
   transition: all 0.5s;
   font-weight: 500;
   font-size: 13px;

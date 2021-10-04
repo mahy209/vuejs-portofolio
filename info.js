@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "A senior Software Engineering student at KFS University with an interest in Software Development, UI/UX Design and Front-end developing. ",
+    "I'm Mahy Mohab, A senior Software Engineering student at KFS University with an interest in Software Development, UI/UX Design and Front-end developing. ",
   links: {
     linkedin: "www.linkedin.com/in/mahy-mohab-209",
     github: "https://github.com/mahy209",
@@ -20,12 +20,12 @@ let info = {
   education: [
     {
       name: "KFS University",
-      place: "KFS",
+      place: "Kafr Elsheikh",
       date: "sep, 2018 - currently",
       degree: "bachelor in software engineering",
       gpa: "3.1/4.0",
       description:
-        "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
+        "",
       skills: [
         "Software Engineering",
         "web programming",
@@ -84,63 +84,35 @@ let info = {
   ],
   skills: [
     {
-      title: "HTML",
+      title: "Language",
       info: [
-        "Python",
-        "Javascript",
-        "TypeScript",
-        "Java",
-        "C",
-        "C++",
-        "SQL",
-        "NoSQL",
-        "Ruby"
-      ],
+        "Python","Javascript","TypeScript","Java","C#"],
       icon: "fa fa-code"
     },
     {
-      title: "data frameworks",
+      title: "Front-end",
       info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
-      ],
+        "HTML5","CSS3","Bootstrap3","JQuery","Es6","json"],
       icon: "fa fa-cubes"
     },
     {
       title: "web technologies",
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
+      info: ["Vue", "React", "Node"],
       icon: "fas fa-laptop-code"
     },
     {
-      title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
+      title: "Databases",
+      info: ["MongoDB", "MySQL", "SQL Server"],
       icon: "fa fa-database"
     },
     {
-      title: "operating systems & tools",
-      info: [
-        "MacOS",
-        "Ubuntu",
-        "Windows",
-        "Android",
-        "Agile",
-        "Scrum",
-        "JIRA",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
-      ],
+      title: "Operating systems & tools",
+      info: [ "Ubuntu", "Windows", "Agile", "Scrum", "JIRA","Firebase"],
       icon: "fas fa-tools"
     },
     {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+      title: "Design",
+      info: ["Illustrator", "XD", "Photoshop", "Gimp"],
       icon: "fa fa-pencil-square-o"
     }
   ],
@@ -317,95 +289,95 @@ let info = {
   ],
   portfolio_design: [
     {
-      name: "Guituna",
-      title: "Guituna - Mockup Design",
+      name: "Examia",
+      title: "Online Examination - UI Design",
       pictures: [
         {
-          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
+          img: require("./src/assets/designs/online examination/exam (2).png"),
           title: "MoodBoard"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
+          img: require("./src/assets/designs/online examination/exam (1).png"),
           title: "Mockups 1"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
+          img: require("./src/assets/designs/online examination/exam (3).png"),
           title: "Mockups 2"
         },
         {
-          img: require("./src/assets/designs/coursera1/App Elements.png"),
+          img: require("./src/assets/designs/online examination/exam (4).png"),
+          title: "App Elements"
+        },
+        {
+          img: require("./src/assets/designs/online examination/exam (5).png"),
+          title: "App Elements"
+        },
+        {
+          img: require("./src/assets/designs/online examination/exam (6).png"),
           title: "App Elements"
         }
       ],
-      technologies: ["XD", "Illustrator"],
+      technologies: ["XD", "Photoshop"],
       category: "Visual Design",
       github: "",
-      date: "May, 2020 - Jun, 2020",
+      date: "Jan, 2021 - Feb, 2021",
       visit: "",
       description:
-        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
+        " Examia is a open source project , <br> <br> with Ui/UX design and full stack developing(HTML/CSS/JQuery/PHP)."
     },
     {
-      name: "Pantree",
-      title: "Pantree - Mockup Design",
+      name: "Pill Reminder",
+      title: "Pill Reminder - Mockup Design",
       pictures: [
         {
-          img: require("./src/assets/designs/pantree/MoodBoard.png"),
+          img: require("./src/assets/designs/pill reminder/Web 1.png"),
           title: "Moodboard"
         },
         {
-          img: require("./src/assets/designs/pantree/1.png"),
+          img: require("./src/assets/designs/pill reminder/1.png"),
           title: "Mockups 1"
         },
         {
-          img: require("./src/assets/designs/pantree/2.png"),
+          img: require("./src/assets/designs/pill reminder/2.png"),
           title: "Mockups 2"
         }
       ],
       technologies: ["XD", "Illustrator"],
       category: "Visual Design",
       github: "",
-      date: "May, 2020 - July, 2020",
+      date: "Apr, 2021 - Apr, 2021",
       visit: "",
       description:
-        "Pantree is a recipiece finding and recommending application. It is often the case that you have run to your closest grocery store just to pick up one item that is missing in your kitchen. Pantree keeps a track of all your ingredients, and suggests recipes based on your meal preferences and past recipes. <br/><br/> The goal of the interface is to keep it similar to various recipe/food apps to reduce the learning required by the user, but also provide a smooth interface for users to seemlessly browse through recipes and ingredients."
+        "pill reminder app for nessecary drugs for the day."
     },
     {
-      name: "Bunder",
-      title: "Bunder - MVP Proposal",
+      name: "Taxes Burger",
+      title: "Taxes Burger - UI design",
       pictures: [
         {
-          img: require("./src/assets/designs/bunder/Moodboard.png"),
+          img: require("./src/assets/designs/burger/Web 1 (1).jpg"),
           title: "Moodboard"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 1.png"),
+          img: require("./src/assets/designs/burger/Web 1 (1).png"),
           title: "Mockup 1"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 2.png"),
+          img: require("./src/assets/designs/burger/Web 1 (2).png"),
           title: "Mockup 2"
         },
         {
-          img: require("./src/assets/designs/bunder/Mockup 3.png"),
+          img: require("./src/assets/designs/burger/Web 1 (3).png"),
           title: "Mockup 3"
         },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 1.png"),
-          title: "Market Research 1"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 2.png"),
-          title: "Market Research 2"
-        }
       ],
       technologies: ["XD", "Illustrator"],
       category: "Visual Design",
       github: "",
-      date: "May, 2020 - July, 2020",
+      date: "May, 2021 - May, 2021",
       visit: "",
       description:
-        "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
+        " Burger restuarant UI design"
     }
   ],
 };

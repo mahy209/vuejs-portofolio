@@ -275,19 +275,19 @@ export default {
 }
 
 .btn {
-  border-color: rgb(212, 149, 97);
-  color: rgb(212, 149, 97);
+  border-color: #8585ad;
+  color: #8585ad;
 }
 
 .btn:hover {
-  background-color: rgb(212, 149, 97);
-  border-color: rgb(212, 149, 97);
+  background-color: #8585ad;
+  border-color: #8585ad;
   color: white;
 }
 
 .btn:focus {
-  background-color: rgb(212, 149, 97);
-  border-color: rgb(212, 149, 97);
+  background-color: #8585ad;
+  border-color: #8585ad;
   color: white;
 }
 
@@ -404,7 +404,7 @@ export default {
 }
 
 .badge {
-  background-color: rgb(211, 227, 233);
+  background-color: #bbd4dd;
   transition: all 0.5s;
   font-weight: 500;
   font-size: 13px;
