@@ -37,50 +37,41 @@ let info = {
   ],
   experience: [
     {
-      name: "Cyberinfrastructure for Network Science Center",
-      place: "Bloomington, Indiana",
-      date: "Jun, 2020 - Present",
-      position: "Research Assistant; Full Stack Developer",
+      name: "MONT",
+      place: "Kafr elSheikh, Egypt",
+      date: "July, 2021 - currently",
+      position: "ReactJS Engineer",
       description:
-        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
-      skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+        "",
+      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "es6", "VueJS"]
     },
     {
-      name: "Skylark Drones",
-      place: "Bangalore, India",
-      date: "Jan, 2019 - Jun, 2021",
-      position: "Full Stack Web Developer",
+      name: "ITI",
+      place: "Kafr elSheikh, Egypt",
+      date: "1,sep, 2021 - 28,sep, 2021",
+      position: "VueJS web developer",
       description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
+        "",
+      skills: ["HTML5", "CSS3", "Bootstrap", "JQuery", "Json", "JavaSript", "TypeSript", "es6", "VueJS"]
     },
     {
-      name: "Hridayam Soft Solutions",
-      place: "Mumbai, India",
-      date: "May, 2018 - Jun, 2018",
-      position: "Computer Vision Engineer",
+      name: "Udacity",
+      place: "Egypt",
+      date: "jun, 2021 - sep, 2021",
+      position: "React Web Developer",
       description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
+        "",
+      skills: ["Javascript", "Typescript", "ReactJS", "React-Redux", "webpack", "NLP"]
     },
     {
-      name: "Elementail Labs",
-      place: "Mumbai, India",
-      date: "May, 2017 - July, 2017",
-      position: "Full Stack Web Developer",
+      name: "IEEE",
+      place: "Alexandria, Egypt",
+      date: "Jan, 2020 - Feb, 2020",
+      position: "Frontend Developer",
       description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
+        "",
+      skills: ["HTML", "CSS", "JavaSript"]
     },
-    {
-      name: "Viteos Capital Market Services s",
-      place: "Mumbai, India",
-      date: "May, 2016 - July, 2016",
-      position: "Software Developer",
-      description:
-        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
-      skills: ["C#", "C++", "Visual Studio"]
-    }
   ],
   skills: [
     {

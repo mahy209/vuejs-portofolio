@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top p-st"
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-st"
       :class="{
         'bg-light': !nightMode,
         'navbar-blur': navbarConfig.blur,
@@ -26,8 +26,8 @@
           aria-label="Toggle navigation"
         >
           <span style="color: gray; font-size: 23px;"
-            ><i class="fas fa-bars"></i
-          ></span>
+            ><i class="fas fa-bars"></i>
+            </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
