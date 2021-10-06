@@ -112,8 +112,9 @@ export default {
 }
 
 img {
-  max-width: 400px;
-  margin-top: 60px;
+  max-width: 800px;
+  max-height: 500px;
+  margin-top: 80px;
   transform: rotateY(180deg);
 }
 
