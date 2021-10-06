@@ -382,19 +382,19 @@ export default {
 }
 
 .btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
+  border-color: #759CC9;
+  color: #759CC9;
 }
 
 .btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #759CC9;
+  border-color: #759CC9;
   color: white;
 }
 
 .btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #759CC9;
+  border-color: #759CC9;
   color: white;
 }
 /deep/ .vueperslides__arrow {

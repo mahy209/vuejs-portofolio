@@ -149,7 +149,7 @@ export default {
       if (!this.email || !this.name || !this.text) {
         this.showSnackbar = true;
         this.snackbarMessage = "Please all the fields";
-        this.snackbarColor = "rgb(212, 149, 97)";
+        this.snackbarColor = "#64808E";
       } else {
         var obj = {
           user_email: this.email,
@@ -178,7 +178,7 @@ export default {
             (error) => {
               this.showSnackbar = true;
               this.snackbarMessage = "Oops! Something went wrong.";
-              this.snackbarColor = "rgb(212, 149, 97)";
+              this.snackbarColor = "#64808E";
             }
           );
       }
@@ -219,20 +219,20 @@ export default {
 }
 
 .btn {
-  border-color: #669db3ff;
-  color: #669db3ff;
+  border-color: #759CC9;
+  color: #759CC9;
   width: 50%;
 }
 
 .btn:hover {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #759CC9;
+  border-color: #759CC9;
   color: white;
 }
 
 .btn:focus {
-  background-color: #669db3ff;
-  border-color: #669db3ff;
+  background-color: #759CC9;
+  border-color: #759CC9;
   color: white;
 }
 
