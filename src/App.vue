@@ -62,7 +62,7 @@ export default {
     },
     scrollTo(ele) {
       if (ele == "home") {
-        this.$router.push(`/`);
+        this.$router.push(`/`).catch(()=>{});
         window.scrollTo({ top: -80, behavior: "smooth" });
       } else {
         var elementPosition = document.getElementById(ele).offsetTop;
@@ -101,7 +101,7 @@ export default {
 }
 
 .pblue {
-  color: #669db3ff;
+  color: #759CC9;
 }
 
 .bg-dark2 {
@@ -131,13 +131,13 @@ export default {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #AEAEAE;
   border-radius: 9px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #949494;
 }
 
 .tooltip {
@@ -146,7 +146,7 @@ export default {
 }
 
 .tooltip .tooltip-inner {
-  background: rgb(212, 149, 97);
+  background: #64808E;
   color: white;
   border-radius: 8px;
   font-size: 10px;
@@ -159,7 +159,7 @@ export default {
   border-style: solid;
   position: absolute;
   margin: 5px;
-  border-color: rgb(212, 149, 97);
+  border-color: #64808E;
   z-index: 1;
 }
 
