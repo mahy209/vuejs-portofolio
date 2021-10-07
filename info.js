@@ -109,122 +109,53 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Sheet Recognizer",
+      name: "Diary App",
       pictures: [
         {
-          img: require("./src/assets/portfolio/msr/one.png")
+          img: require("./src/assets/portfolio/diary/1.png")
         },
         {
-          img: require("./src/assets/portfolio/msr/two.png")
+          img: require("./src/assets/portfolio/diary/2.png")
         },
         {
-          img: require("./src/assets/portfolio/msr/three.png")
+          img: require("./src/assets/portfolio/diary/3.png")
         },
-        {
-          img: require("./src/assets/portfolio/msr/four.png")
-        }
       ],
-      technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
-      category: "Algorithm",
-      date: "Jan, 2020 - Mar, 2020",
+      technologies: ["react", "scss", "local storage"],
+      category: "developing",
+      date: "Aug, 2021 - 20 days",
       github:
-        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+        "https://github.com/mahy209/notes-react-app.git",
+      visit: "https://github.com/mahy209/notes-react-app.git",
       description:
-        "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition, this tool is used to detect music notes and rests. It makes use of basic Computer Vision techniques such as Convolution, Edge Detections, Hough Transforms and Template Matching to detect notes and rests on a music sheet. "
+        " Diary react app with some new features: Dark mode, upload images, tags, filter search with title/content/tag "
     },
     {
-      name: "NoQ Job Portal",
+      name: "Online Examination",
       pictures: [
         {
-          img: require("./src/assets/portfolio/noq/logo.png")
+          img: require("./src/assets/portfolio/online examination/exam (1).png")
         },
         {
-          img: require("./src/assets/portfolio/noq/one.png")
+          img: require("./src/assets/portfolio/online examination/exam (2).png")
         },
         {
-          img: require("./src/assets/portfolio/noq/two.png")
+          img: require("./src/assets/portfolio/online examination/exam (3).png")
         },
         {
-          img: require("./src/assets/portfolio/noq/three.png")
+          img: require("./src/assets/portfolio/online examination/exam (4).png")
         },
         {
-          img: require("./src/assets/portfolio/noq/four.png")
+          img: require("./src/assets/portfolio/online examination/exam (5).png")
         }
       ],
-      technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
-      category: "Website",
-      date: "Sep, 2019 - Dec  , 2019",
-      github: "https://github.com/hrishikeshpaul/noq",
-      visit: "https://noq-client.herokuapp.com/",
+      technologies: ["HTML", "CSS","JavaSript","JQuery", "PHP", "MySQL"],
+      category: "developing",
+      date: "Apr, 2021 - May, 2021",
+      github: "https://github.com/mahy209/online-examination.git",
+      visit: "https://github.com/mahy209/online-examination.git",
       description:
-        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
-    },
-    {
-      name: "POST",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/post/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/post/two.png")
-        }
-      ],
-      technologies: [
-        "Markov Models",
-        "Python",
-        "Artificial Intelligence",
-        "Vue",
-        "Heroku"
-      ],
-      category: "Algorithm",
-      github: "https://github.com/hrishikeshpaul/pos-tagger",
-      date: "Oct, 2019 - Nov, 2019",
-      visit: "https://post-client.herokuapp.com/",
-      description:
-        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
-    },
-    {
-      name: "Suicide Analyzer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
-        },
-        {
-          img: require("./src/assets/portfolio/suicide/suicide2-original.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
-      category: "Website",
-      date: "Oct, 2018 - Nov, 2018",
-      github: "https://github.com/hrishikeshpaul/whodata",
-      visit: "https://skylarktiral.herokuapp.com/",
-      description:
-        "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO. The application consists of a Leaflet map that colors every nation, based on the number of suicides that have been committed in that country, for that year. It provides us with the capability to select the data as well as the continent."
-    },
-    {
-      name: "Sentiment Analyzer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/smit/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/four.png")
-        }
-      ],
-      technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
-      category: "Alogrithm",
-      date: "Feb, 2018 - Apr  , 2018",
-      github: "https://github.com/hrishikeshpaul/sih",
-      visit: "https://angel.co/projects/1009777-sentiment-analysis",
-      description:
-        "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
+        "Online Examination System Today Online Examination System has become a fast growing examination method because of its speed and accuracy. It is also needed less manpower to execute the examination. Almost all organizations now-a-days, are conducting their objective exams by online examination system, it saves students time in examinations. Organizations can also easily check the performance of the student that they give in an examination. As a result of this, organizations are releasing results in less time. It also helps the environment by saving paper. According to today’s requirement, online examination project in php is very useful to learn it. What is an online examination system? In an online examination system examine get their user id and password with his/her admit card. This id is already saved in the examination server. When examine login to the server he/she get his/her profile already register. On the certain time examine gets the message to start the examination. All answers given by examine are saved into the server with his/her profile information. Online examination system also allows to correct the answer if the examine needed to change any answer in the examination time duration, however, after the time duration any change will not allow. This also makes c checking the answer easy and error proof as computers are more accurate than man and provide fast results too. Php is a web base language so we can create an online examination system in PHP. Administrator of Online Examination has multiple features such as Add, Delete, Update Topics and Question. To Login as Admin put inside your browser."
     },
     {
       name: "Clumpr",
