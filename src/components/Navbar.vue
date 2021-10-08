@@ -123,6 +123,9 @@ export default {
 .nav-link {
   font-weight: 500;
 }
+.nav-link:hover{
+  background-color: rgba(160, 159, 159, 0.336);
+}
 
 button {
   border: none;

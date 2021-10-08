@@ -15,7 +15,7 @@ let info = {
     github: "https://github.com/mahy209",
     behance: "https://www.behance.net/mahymohab",
     resume:
-      "https://drive.google.com/file/d/1PlgPagO4D1sc-pztC0sv5a34KrN9g3kM/view?usp=sharing"
+      "https://drive.google.com/file/d/1yrJjc6q-X29qiW_UupooSq1hMTEwJLZ6/view?usp=sharing"
   },
   education: [
     {
@@ -156,39 +156,6 @@ let info = {
       visit: "https://github.com/mahy209/online-examination.git",
       description:
         "Online Examination System Today Online Examination System has become a fast growing examination method because of its speed and accuracy. It is also needed less manpower to execute the examination. Almost all organizations now-a-days, are conducting their objective exams by online examination system, it saves students time in examinations. Organizations can also easily check the performance of the student that they give in an examination. As a result of this, organizations are releasing results in less time. It also helps the environment by saving paper. According to today’s requirement, online examination project in php is very useful to learn it. What is an online examination system? In an online examination system examine get their user id and password with his/her admit card. This id is already saved in the examination server. When examine login to the server he/she get his/her profile already register. On the certain time examine gets the message to start the examination. All answers given by examine are saved into the server with his/her profile information. Online examination system also allows to correct the answer if the examine needed to change any answer in the examination time duration, however, after the time duration any change will not allow. This also makes c checking the answer easy and error proof as computers are more accurate than man and provide fast results too. Php is a web base language so we can create an online examination system in PHP. Administrator of Online Examination has multiple features such as Add, Delete, Update Topics and Question. To Login as Admin put inside your browser."
-    },
-    {
-      name: "beauty shopping",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/beauty/1.png")
-        },
-        {
-          img: require("./src/assets/portfolio/beauty/2.png")
-        },
-        {
-          img: require("./src/assets/portfolio/beauty/3.png")
-        },
-        {
-          img: require("./src/assets/portfolio/beauty/4.png")
-        },
-        {
-          img: require("./src/assets/portfolio/beauty/5.png")
-        },
-        {
-          img: require("./src/assets/portfolio/beauty/6.png")
-        },
-        {
-          img: require("./src/assets/portfolio/beauty/7.png")
-        }
-      ],
-      technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Vue JS"],
-      category: "Web App",
-      github: "https://github.com/mahy209/adore-beauty.git",
-      date: "Oct, 2021 - Still up to date",
-      visit: "https://github.com/mahy209/adore-beauty.git",
-      description:
-        ' A clone of adore beauty online shopping using Vue JS framework , the app with new features such as categories, filter with price/color/type, a carousal show in home page, contact page, cart slider.'
     },
     {
       name: "MyFlix.com",
