@@ -6,8 +6,6 @@ firebase.json
 .firebase
 .firebaserc
 
-config.js
-
 # local env files
 .env.local
 .env.*.local
